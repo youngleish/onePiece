@@ -1,0 +1,50 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        //- dns-prefetch
+        meta(http-equiv="x-dns-prefetch-control", content="on")
+
+        //- 启用360浏览器的极速模式(webkit)
+        meta(name="renderer", content="webkit")
+
+        //- 优先使用IE最新版本和Chrome
+        meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+
+        //- 不使用百度 Siteapp
+        meta(http-equiv="Cache-Control", content="no-siteapp")
+
+        meta(name="apple-mobile-web-app-capable", content="yes")
+        meta(name="apple-mobile-web-app-status-bar-style", content="grey")
+        meta(name="format-detection", content="telephone=no")
+
+    title 淘世界
+    - var cssPath = "/public/entry/"
+    link(rel="stylesheet", href= cssPath + "index.css")
+    meta(name='keywords', content='正品,包邮包税,海淘,全球购,免税店,海淘直播，app下载,全球买买买')
+    meta#description(name="description", content="淘世界,世界买手正在淘,8000买手帮你找到海外同款,零时差享受海外商场限时折扣,让您身临其境享受购物乐趣。100%保证正品,包税包邮;")
+
+block body-content
+
+    .content.index-page.hide.fz-28
+        header.head
+            span#entry
+                i.fz-32.icon.icon-user-line
+            //span.tsj
+            //a#register(href='/pages/h5/account/register.html') 注册
+        .index
+        .hot
+            .hot-category
+            .hot-stock
+            .load-more
+                i.icon.icon-loading
+                span.more 加载更多
+                span.loading 正在加载...
+                span.end 哎呦，没有更多了呢
+        .add-home-screen.fz-22.hide
+            .shortcut 创建淘世界桌面快捷方式
+            .step 点击下方图标，选择'添加至主屏幕'
+            .fz-18.close
+                span.icextensionon.icon-cross
+    if analytics
+        div aaadddd
