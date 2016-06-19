@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA;EACI,YAAW,EAMd;EAPD;IAGQ,YAAW;IACX,mCAAoB;YAApB,2BAAoB,EAEvB","file":"index.css","sourcesContent":["div{\n    color:pink;\n    .test{\n        color:#444;\n        transform:translateX(50%);\n\n    }\n}"],"sourceRoot":"/source/"}

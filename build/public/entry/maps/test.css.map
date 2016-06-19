@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.scss"],"names":[],"mappings":"AAAA;EAEQ,WAAW;EACX,gBAAgB;EAChB,iBAAiB;EACjB,kBAAiB,EACpB","file":"test.css","sourcesContent":["div{\n    .aaa{\n        color: red;\n        font-size: 10px;\n        background: #000;\n        font-weight:bold;\n    }\n}"],"sourceRoot":"/source/"}

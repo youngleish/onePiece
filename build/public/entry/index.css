@@ -1,0 +1,8 @@
+div {
+  color: pink; }
+  div .test {
+    color: #444;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%); }
+
+/*# sourceMappingURL=maps/index.css.map */
