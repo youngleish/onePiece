@@ -180,10 +180,12 @@ gulp.task('default',function(cb){
 });
 
 /*命令说明
-* gulp 执行的操作 build
-* gulp --watch 执行的操作 build serve watch(不会压缩html,其他命令会压缩html)
-* gulp --release 执行的操作 clean build rev-all 添加了1)js和css的压缩操作 2)seo 减少了1)sass任务种的sourcemap操作2)lint任务
-* gulp --release --cdn 这是上线的操作命令 执行操作添加了 1)rev-all任务种的cdn功能 2)jade编译会加上统计代码
-*
-*
-* */
+ * gulp 执行的操作 build
+ * gulp --watch 执行的操作 build serve watch(不会压缩html,其他命令会压缩html)
+ * gulp --release 执行的操作 clean build rev-all 添加了1)js和css的压缩操作 2)seo 减少了1)sass任务种的sourcemap操作2)lint任务
+ * gulp --release --cdn 这是上线的操作命令 执行操作添加了 1)rev-all任务种的cdn功能 2)jade编译会加上统计代码
+ *
+ *
+ * */
+
+
