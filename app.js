@@ -13,4 +13,5 @@ fs.createReadStream('./task/config.js').on('data',function(file){
     console.log(file);
     console.log(Buffer.isBuffer(file));
     //console.log(Stream.isStream(chunk));
+    console.log(test); //测试fetch添加
 });
